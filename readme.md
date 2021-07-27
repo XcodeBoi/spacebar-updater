@@ -1,4 +1,4 @@
-# daemon for running light weight scripts
+# daemon for running scripts
 There is no real reason this uses node. I thought it was easier or something. This is just an experiment but it works.
 # Installation
 The plist file should be installed under `~/Library/LaunchAgents/`\
