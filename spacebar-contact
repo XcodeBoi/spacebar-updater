@@ -1,0 +1,11 @@
+#! /bin/zsh
+
+counter=1
+while [ $counter -le 10 ]
+do
+echo $1
+((counter++))
+sleep 0.1
+done
+
+spacebar -m config left_shell_command "echo A good day to you, $1"
